@@ -533,7 +533,7 @@ Git安装完毕后，会自动配置到系统环境变量中；
 
 5. 在安装目录中，新建`extras`文件夹，在`extras`文件夹下新建`android`文件夹；右键 `x` 解压`m2responsitory`文件夹和`support`文件夹，放到新建的`extras -> android`文件夹下
 
-6. 配置安装环境变量：在系统环境变量中新建`ANDROID_HOME`，值为android SDK Manager的安装路径`C:\Users\liulongbin\AppData\Local\Android\android-sdk`，紧接着，在Path中新增`;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;`
+6. 配置安装环境变量：在系统环境变量中新建`ANDROID_HOME`，值为android SDK Manager的安装路径[这里为你的C根目录路径]`C:\Users\liulongbin\AppData\Local\Android\android-sdk`，紧接着，在Path中新增`;%ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;`
 
 
 
@@ -557,7 +557,7 @@ Git安装完毕后，会自动配置到系统环境变量中；
 
    > npm config set disturl https://npm.taobao.org/dist --global
 
-
+这个可以忽略 一定要用yarn
 
 2. Yarn 和 React Native的命令行工具（react-native-cli）
 
